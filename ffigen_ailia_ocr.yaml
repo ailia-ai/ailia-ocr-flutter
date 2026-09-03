@@ -1,0 +1,8 @@
+name: 'ailiaOcrFFI'
+description: 'Bindings to `ailia_ocr.h`.'
+output: 'lib/ailia_ocr.dart'
+headers:
+  entry-points:
+    - 'native/ailia_ocr.h'
+llvm-path:
+  - '/usr/local/opt/llvm@15'

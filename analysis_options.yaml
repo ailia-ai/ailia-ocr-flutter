@@ -1,0 +1,9 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    # ffigen の生成物
+    - lib/ailia_ocr.dart
+
+# Additional information about this file can be found at
+# https://dart.dev/guides/language/analysis-options
